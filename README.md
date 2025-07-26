@@ -9,7 +9,11 @@ Programiz c++ compiler
 Theory
 -> Loops in C++ are used to execute a set of statements repeatedly as long as a specific condition is true. They reduce redundancy in code and are widely used for iteration, pattern printing, and data processing.
 
+
+
 <img width="1052" height="412" alt="image" src="https://github.com/user-attachments/assets/37605e36-e74e-48af-a338-4cf655c732b4" />
+
+
 
 Program 1 – Printing "SIT" 5 Times
 Aim: Print the text “SIT” five times using a for loop.
