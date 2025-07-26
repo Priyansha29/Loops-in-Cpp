@@ -9,10 +9,39 @@ Programiz c++ compiler
 Theory
 -> Loops in C++ are used to execute a set of statements repeatedly as long as a specific condition is true. They reduce redundancy in code and are widely used for iteration, pattern printing, and data processing.
 
+Types of Loops in C++ 
 
+1)For Loop
+a)Used when the number of iterations is already known.
+b)Performs initialization, condition checking, and update in a single line.
+c)The condition is checked before each iteration.
+Syntax:
 
-<img width="1052" height="412" alt="image" src="https://github.com/user-attachments/assets/37605e36-e74e-48af-a338-4cf655c732b4" />
+for(initialization; condition; increment) {
+    // body of loop
+}
 
+2)While Loop
+a)Preferred when the number of iterations is not known beforehand.
+b)The condition is evaluated before the loop body runs.
+c)If the condition is false initially, the loop body will not execute even once.
+
+Synatx:
+
+while(condition) {
+    // body of loop
+}
+
+3)Do-While Loop
+a)Ensures the loop body executes at least once.
+b)The condition is checked after executing the loop body.
+c)Useful when the first execution must happen without a condition check.
+
+Syntax:
+
+do {
+    // body of loop
+} while(condition);
 
 
 Program 1 – Printing "SIT" 5 Times
