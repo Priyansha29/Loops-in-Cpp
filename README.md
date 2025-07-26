@@ -13,7 +13,9 @@ Types of Loops in C++
 
 1)For Loop
 a)Used when the number of iterations is already known.
+
 b)Performs initialization, condition checking, and update in a single line.
+
 c)The condition is checked before each iteration.
 Syntax:
 
@@ -23,7 +25,9 @@ for(initialization; condition; increment) {
 
 2)While Loop
 a)Preferred when the number of iterations is not known beforehand.
+
 b)The condition is evaluated before the loop body runs.
+
 c)If the condition is false initially, the loop body will not execute even once.
 
 Synatx:
@@ -34,7 +38,9 @@ while(condition) {
 
 3)Do-While Loop
 a)Ensures the loop body executes at least once.
+
 b)The condition is checked after executing the loop body.
+
 c)Useful when the first execution must happen without a condition check.
 
 Syntax:
