@@ -57,13 +57,13 @@ Aim: Print the text “SIT” five times using a for loop.
 1)Initialize a loop counter at 1.
 2)Repeat printing until the counter reaches 5.
 
-Sample output: 
+"""Sample output: 
 
 SIT
 SIT
 SIT
 SIT
-SIT
+SIT"""
 
 ## Program 2 – Display Even Numbers Between 0–10
 Aim: Generate even numbers using loop-controlled increments.
