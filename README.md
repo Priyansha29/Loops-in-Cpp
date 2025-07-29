@@ -6,10 +6,10 @@ Aim :
 Tools Required:
 Programiz c++ compiler
 
-Theory
+# Theory
 -> Loops in C++ are used to execute a set of statements repeatedly as long as a specific condition is true. They reduce redundancy in code and are widely used for iteration, pattern printing, and data processing.
 
-Types of Loops in C++ 
+## Types of Loops in C++ 
 
 1)For Loop
 a)Used when the number of iterations is already known.
@@ -50,10 +50,10 @@ do {
 } while(condition);
 
 
-Program 1 – Printing "SIT" 5 Times
+## Program 1 – Printing "SIT" 5 Times
 Aim: Print the text “SIT” five times using a for loop.
 
-Algorithm:
+*Algorithm:*
 1)Initialize a loop counter at 1.
 2)Repeat printing until the counter reaches 5.
 
@@ -65,10 +65,10 @@ SIT
 SIT
 SIT
 
-Program 2 – Display Even Numbers Between 0–10
+## Program 2 – Display Even Numbers Between 0–10
 Aim: Generate even numbers using loop-controlled increments.
 
-Algorithm:
+*Algorithm:*
 1)Start with i = 0.
 2)Print i and increase it by 2 until it reaches 10.
 
@@ -81,28 +81,28 @@ Sample Output:
 8
 10
 
-Program 3 – Validating password from user by while loop
+## Program 3 – Validating password from user by while loop
 Aim: Validate a user password using a while loop and provide multiple retry options.
 
-Algorithm:
+*Algorithm:*
 1)Take PRN and password as input.
 2)Prompt user to enter the password.
 3)If incorrect, display menu options to retry, reset, or exit.
 
-Program 4 – Printing Digits of a Number in Reverse
+## Program 4 – Printing Digits of a Number in Reverse
 Aim: Extract and display digits in reverse order using modulus and division.
 
-Algorithm:
+*Algorithm:*
 1)Input a number.
 2)Repeat until number becomes 0:
 3)lastDigit = number % 10
 4)print lastDigit
 5)number = number / 10
 
-Program 5 – Demonstrating Nested Loops
+## Program 5 – Demonstrating Nested Loops
 Aim: Show how outer and inner loops interact.
 
-Algorithm:
+*Algorithm:*
 1)Outer loop runs twice.
 2)Inner loop runs three times per outer iteration.
 
@@ -116,7 +116,7 @@ Inner: 1
 Inner: 2
 Inner: 3
 
-Program 6 – Left-Aligned Triangle Pattern
+## Program 6 – Left-Aligned Triangle Pattern
 Aim: Print a triangular pattern of stars aligned to the left.
 
 Sample output:
@@ -126,7 +126,7 @@ Sample output:
 ****
 *****
 
-Program 7 – Right-Aligned Triangle Pattern
+## Program 7 – Right-Aligned Triangle Pattern
 Aim: Combine spaces and stars to print a right-aligned pattern.
 
 Sample Output:
@@ -136,7 +136,7 @@ Sample Output:
  ****
 *****
 
-Program 8 – Floyd’s Triangle
+## Program 8 – Floyd’s Triangle
 Aim: Print numbers in a triangular format using nested loops.
 
 Sample output:
@@ -145,10 +145,11 @@ Sample output:
 4 5 6
 7 8 9 10
 
-Program 9 – Hourglass Star Pattern
+## Program 9 – Hourglass Star Pattern
 Aim: Print a symmetric hourglass pattern using two loops.
 
 Sample output:
+
 * * * * *
  * * * *
   * * *
@@ -160,7 +161,7 @@ Sample output:
 * * * * *
 
 
-Conclusion
+# Conclusion
 ->By implementing these programs, we observed how different loop structures can be applied to real-world logic such as authentication systems, number processing, and pattern generation. Loops enhance code reusability, reduce redundancy, and provide better control over program flow.
 
 
