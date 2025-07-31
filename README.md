@@ -30,12 +30,12 @@ b)The condition is evaluated before the loop body runs.
 
 c)If the condition is false initially, the loop body will not execute even once.
 
-Synatx:
+```Synatx:
 
 while(condition) {
     // body of loop
 }
-
+```
 3)Do-While Loop
 a)Ensures the loop body executes at least once.
 
@@ -43,18 +43,19 @@ b)The condition is checked after executing the loop body.
 
 c)Useful when the first execution must happen without a condition check.
 
-Syntax:
+```Syntax:
 
 do {
     // body of loop
 } while(condition);
-
+```
 
 ## Program 1 – Printing "SIT" 5 Times
 Aim: Print the text “SIT” five times using a for loop.
 
 *Algorithm:*
 1)Initialize a loop counter at 1.
+
 2)Repeat printing until the counter reaches 5.
 
 ```
@@ -72,9 +73,10 @@ Aim: Generate even numbers using loop-controlled increments.
 
 *Algorithm:*
 1)Start with i = 0.
+
 2)Print i and increase it by 2 until it reaches 10.
 
-Sample Output: 
+```Sample Output: 
 
 0
 2
@@ -82,6 +84,7 @@ Sample Output:
 6
 8
 10
+```
 
 ## Program 3 – Validating password from user by while loop
 Aim: Validate a user password using a while loop and provide multiple retry options.
@@ -108,7 +111,7 @@ Aim: Show how outer and inner loops interact.
 1)Outer loop runs twice.
 2)Inner loop runs three times per outer iteration.
 
-Sample output: 
+```Sample output: 
 Outer: 1
 Inner: 1
 Inner: 2
@@ -117,40 +120,41 @@ Outer: 2
 Inner: 1
 Inner: 2
 Inner: 3
-
+```
 ## Program 6 – Left-Aligned Triangle Pattern
 Aim: Print a triangular pattern of stars aligned to the left.
 
-Sample output:
+```Sample output:
 *
 **
 ***
 ****
 *****
+```
 
 ## Program 7 – Right-Aligned Triangle Pattern
 Aim: Combine spaces and stars to print a right-aligned pattern.
 
-Sample Output:
+```Sample Output:
     *
    **
   ***
  ****
 *****
-
+```
 ## Program 8 – Floyd’s Triangle
 Aim: Print numbers in a triangular format using nested loops.
 
-Sample output:
+```Sample output:
 1
 2 3
 4 5 6
 7 8 9 10
-
+```
 ## Program 9 – Hourglass Star Pattern
 Aim: Print a symmetric hourglass pattern using two loops.
 
-Sample output:
+```Sample output:
 
 * * * * *
  * * * *
@@ -161,7 +165,7 @@ Sample output:
   * * *
  * * * *
 * * * * *
-
+```
 
 # Conclusion
 ->By implementing these programs, we observed how different loop structures can be applied to real-world logic such as authentication systems, number processing, and pattern generation. Loops enhance code reusability, reduce redundancy, and provide better control over program flow.
